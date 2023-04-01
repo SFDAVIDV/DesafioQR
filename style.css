@@ -29,18 +29,18 @@ body {
 
 .text-content {
   font-family: Outfit, sans-serif;
-  width: 300px;
+  width: 320px;
+  text-align: center;
+  margin: auto;
 }
 
 .text-principal {
   font-weight: 700;
-  text-align: center;
-  font-size: 1.4em;
+  font-size: 1.5em;
 }
 
 .text {
   font-weight: 400;
-  text-align: center;
   color: hsl(220, 15%, 55%);
 }
 
@@ -67,5 +67,14 @@ body {
   .img-cont img {
     width: 280px;
     border-radius: 2%;
+  }
+
+  .text-content {
+    font-family: Outfit, sans-serif;
+    width: 300px;
+  }
+
+  .text-principal {
+    font-size: 1.3em;
   }
 }
